@@ -10,4 +10,5 @@ SELECT TOP 1000 [Category]
       ,[User Name Purchase Order]
       ,[User Type Purchase Order]
   FROM [DA_PI_development_sandbox_BE_5].[P2P].[P2P-SOD_PR-PD]
-  WHERE [User Name Purchase Requisition] = 'Rick Geutjes'
+  WHERE [User Name Purchase Requisition] ='Rick Geutjes' OR [User Name Purchase Requisition] = 'Marion Rooijakkers' OR [User Name Purchase Requisition] = 'Gerrit van Veldhuisen' 
+
