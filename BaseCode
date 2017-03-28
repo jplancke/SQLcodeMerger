@@ -1,0 +1,13 @@
+SELECT TOP 1000 [Category]
+      ,[BANFN]
+      ,[BNFPO]
+      ,[User ID Purchase Requisition]
+      ,[User Name Purchase Requisition]
+      ,[User Type Purchase Requisition]
+      ,[EBELN]
+      ,[EBELP]
+      ,[User ID Purchase Order]
+      ,[User Name Purchase Order]
+      ,[User Type Purchase Order]
+  FROM [DA_PI_development_sandbox_BE_5].[P2P].[P2P-SOD_PR-PD]
+  WHERE [User Name Purchase Requisition] = 'Rick Geutjes'
